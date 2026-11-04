@@ -1,4 +1,4 @@
-# NitroArchive
+# NitroArchive: Stop paying extra for unused space in disk and partition backups.
 
 A streaming, seekable compressed archive format for large byte streams.
 
