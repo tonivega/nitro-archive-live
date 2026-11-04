@@ -2,7 +2,11 @@
 
 A streaming, seekable compressed archive format for large byte streams.
 
+I was tired of wasting money on cloud storage for disk images and backups that were partly filled with zeros, so I built NitroArchive. 💸☁️ It provides efficient compression with S3-compatible input and output—and, best of all, lets you mount an image on Linux without downloading the entire archive when you only need a specific file. 🚀
+
 NitroArchive creates independently compressed Zstandard blocks that can be read locally or fetched on demand from HTTP and S3-compatible object storage. Archives can also be mounted with FUSE as a read-only file named `data`.
+
+Need a custom solution, a specialized variation, or improvements to NitroArchive? Get in touch at [nar@nitrobutton.com](mailto:nar@nitrobutton.com). 🛠️
 
 ## Why NitroArchive?
 
